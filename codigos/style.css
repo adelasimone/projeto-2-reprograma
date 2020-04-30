@@ -73,8 +73,13 @@ body {
     text-decoration: line-through; 
 }
 
-.todo__tarefas-lista li.over {
+.todo__tarefas-lista li .over {
     border: 1px dashed #ccc; 
+}
+
+.btn-excluir {
+    display: flex;
+    align-items: center;
 }
 
 .todo__btn-container {
